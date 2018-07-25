@@ -2,6 +2,9 @@ html, body, div, canvas, ul {
   margin: 0;
   padding: 0;
 }
+body {
+  background-color: #ffffff;
+}
 
 .App {
   text-align: center;
@@ -44,11 +47,16 @@ html, body, div, canvas, ul {
   background-color: #75CBAE;
 }
 
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .modify-choice {
-  font-size: 2em;
+  font-size: 3em;
 }
 .choice-count {
-  font-size: 2.4em;
+  font-size: 3.6em;
   margin: 30px;
 }
 
