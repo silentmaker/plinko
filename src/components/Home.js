@@ -60,7 +60,8 @@ class Home extends Component {
     const leftWall = Bodies.rectangle(0, height / 2, 1, height, { isStatic: true })
     const rightWall = Bodies.rectangle(width, height / 2, 1, height, { isStatic: true })
     const bars = Composites.stack(radius / 2, 80, columns, columns + 2, radius - 8, radius - 8, (x, y) => {
-      return (y - 80 )/ radius % 2 === 1 && x === radius / 2 ? 
+      console.log(Math.round((y - 80 )/ radius) % 2 === 1 && x === radius / 2)
+      return Math.round((y - 80 )/ radius) % 2 === 1 && x === radius / 2 ? 
         Bodies.circle(x - radius / 2, y, 4, { render: {visible: false} }) : 
         Bodies.circle(x, y, 4, { isStatic: true, render: {fillStyle: this.randomColor()} })
     })
