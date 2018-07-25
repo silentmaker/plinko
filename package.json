@@ -2,10 +2,13 @@
   "name": "plinko",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://silentmaker.github.io/plinko",
+  "homepage": "http://silentmaker.github.io/plinko",
   "dependencies": {
+    "matter-js": "^0.14.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4"
   },
   "scripts": {
