@@ -1,3 +1,3 @@
 ## Plinko
 
-A game used for solving arguments.
+Built with matter.js
